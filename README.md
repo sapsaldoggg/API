@@ -53,7 +53,7 @@ get - /user/restaurant/{restaurant_id}/parties
 post - /user/restaurant/{restaurant_id}/party
 
 ### * 파티 참가
-post - /user/restaurant/{restaurant_id}/party/join
+post - /user/restaurant/{restaurant_id}/party/{party_id}
 
 
 
