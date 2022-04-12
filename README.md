@@ -47,7 +47,14 @@ response =>
 
 ## -------------------파티----------------------------
 ### * 파티목록조회
-get - /user/restaurant/{restaurant_id}/parties - 
+get - /user/restaurant/{restaurant_id}/parties 
+
+### * 파티 생성
+post - /user/restaurant/{restaurant_id}/party
+
+### * 파티 참가
+post - /user/restaurant/{restaurant_id}/party/join
+
 
 
 
