@@ -5,6 +5,7 @@ method   -  uri   -   data form(example)  순서
 post - /login - {"loginId":"sad", "password":"sad"}
 
 ## --JOIN--
+### 회원가입
 post - /join - 
 {
     "nickname":"날아라슛돌이",
@@ -16,5 +17,13 @@ post - /join -
     "dept":"컴공",
     "sno":17
 }
+
+### 아이디 중복검사
+post - /duplicate-loginId - abc123(문자열)
+
+### 닉네임 중복검사
+post - /duplicate-nickname - 날아라슛돌이(문자열)
+
+
 
 
