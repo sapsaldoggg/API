@@ -55,6 +55,12 @@ post - /user/restaurant/{restaurant_id}/party
 ### * 파티 참가
 post - /user/restaurant/{restaurant_id}/party/{party_id}
 
+### * 파티 삭제
+delete - /user/restaurant/{restaurant_id}/party/{party_id}
+
+### * 파티 수정
+put - /user/restaurant/{restaurant_id}/party/{party_id}
+
 
 
 
