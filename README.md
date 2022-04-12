@@ -5,7 +5,7 @@ method   -  uri   -   data form(example)  순서
 post - /login - {"loginId":"sad", "password":"sad"}
 
 ## --JOIN--
-### 회원가입
+### * 회원가입
 post - /join - 
 {
     "nickname":"날아라슛돌이",
