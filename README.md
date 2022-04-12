@@ -1,10 +1,10 @@
 # API 정리
 method   -  uri   -   data form(example)  순서
 
-## --LOGIN--
+## ----------LOGIN------------
 post - /login - {"loginId":"sad", "password":"sad"}
 
-## --JOIN--
+## ----------JOIN------------
 ### * 회원가입
 post - /join - 
 {
