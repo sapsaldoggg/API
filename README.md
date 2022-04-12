@@ -24,6 +24,14 @@ post - /duplicate-loginId - abc123(문자열)
 ### 닉네임 중복검사
 post - /duplicate-nickname - 날아라슛돌이(문자열)
 
+### 이메일 인증 (전송하기)
+post - /mail-auth - xoals@hs.ac.kr(문자열)
+
+### 이메일 인증 (인증코드검증)
+post - /mailcode-auth - 212144(문자열 or int형)
+
+
+
 
 
 
