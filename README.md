@@ -1,5 +1,5 @@
 # API 정리
-method   uri   dataform(example)
+method   -  uri   -   data form(example)  순서
 
 ## --LOGIN--
 post - /login - {"loginId":"sad", "password":"sad"}
