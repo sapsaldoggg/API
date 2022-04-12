@@ -30,6 +30,33 @@ post - /mail-auth - xoals@hs.ac.kr(문자열)
 ### * 이메일 인증 (인증코드검증)
 post - /mailcode-auth - 212144(문자열 or int형)
 
+## --------------------식당--------------------------
+### * 식당목록 조회
+get - /user/restaurants 
+response => [
+    {
+        "id": 1,
+        "name": "그라찌에 한신대경삼관점\r",
+        "category": "카페",
+        "address": "경기 오산시 양산동 400",
+        "longtitude": 127.0240311,
+        "latitude": 37.19410415
+    },
+    {
+        "id": 2,
+        "name": "팬도로시 한신대학교점\r",
+        "category": "카페",
+        "address": "경기 오산시 양산동 400",
+        "longtitude": 127.024157,
+        "latitude": 37.1931454
+    },
+    (리스트 형식)
+    
+
+## -------------------파티----------------------------
+### * 파티목록조회
+get - /user/restaurant/{restaurant_id}/parties - 
+
 
 
 
